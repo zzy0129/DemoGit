@@ -13,26 +13,7 @@
 		35808EEC1C192EC300A46BFC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 35808EEA1C192EC300A46BFC /* Main.storyboard */; };
 		35808EEE1C192EC300A46BFC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 35808EED1C192EC300A46BFC /* Assets.xcassets */; };
 		35808EF11C192EC300A46BFC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 35808EEF1C192EC300A46BFC /* LaunchScreen.storyboard */; };
-		35808EFC1C192EC300A46BFC /* GitDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 35808EFB1C192EC300A46BFC /* GitDemoTests.m */; };
-		35808F071C192EC300A46BFC /* GitDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 35808F061C192EC300A46BFC /* GitDemoUITests.m */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		35808EF81C192EC300A46BFC /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 35808ED61C192EC300A46BFC /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 35808EDD1C192EC300A46BFC;
-			remoteInfo = GitDemo;
-		};
-		35808F031C192EC300A46BFC /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 35808ED61C192EC300A46BFC /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 35808EDD1C192EC300A46BFC;
-			remoteInfo = GitDemo;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		35808EDE1C192EC300A46BFC /* GitDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GitDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -45,30 +26,14 @@
 		35808EED1C192EC300A46BFC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		35808EF01C192EC300A46BFC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		35808EF21C192EC300A46BFC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		35808EF71C192EC300A46BFC /* GitDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GitDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		35808EFB1C192EC300A46BFC /* GitDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GitDemoTests.m; sourceTree = "<group>"; };
 		35808EFD1C192EC300A46BFC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		35808F021C192EC300A46BFC /* GitDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GitDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		35808F061C192EC300A46BFC /* GitDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GitDemoUITests.m; sourceTree = "<group>"; };
 		35808F081C192EC300A46BFC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		35808EDB1C192EC300A46BFC /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		35808EF41C192EC300A46BFC /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		35808EFF1C192EC300A46BFC /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -92,8 +57,6 @@
 			isa = PBXGroup;
 			children = (
 				35808EDE1C192EC300A46BFC /* GitDemo.app */,
-				35808EF71C192EC300A46BFC /* GitDemoTests.xctest */,
-				35808F021C192EC300A46BFC /* GitDemoUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -160,42 +123,6 @@
 			productReference = 35808EDE1C192EC300A46BFC /* GitDemo.app */;
 			productType = "com.apple.product-type.application";
 		};
-		35808EF61C192EC300A46BFC /* GitDemoTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 35808F0E1C192EC300A46BFC /* Build configuration list for PBXNativeTarget "GitDemoTests" */;
-			buildPhases = (
-				35808EF31C192EC300A46BFC /* Sources */,
-				35808EF41C192EC300A46BFC /* Frameworks */,
-				35808EF51C192EC300A46BFC /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				35808EF91C192EC300A46BFC /* PBXTargetDependency */,
-			);
-			name = GitDemoTests;
-			productName = GitDemoTests;
-			productReference = 35808EF71C192EC300A46BFC /* GitDemoTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		35808F011C192EC300A46BFC /* GitDemoUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 35808F111C192EC300A46BFC /* Build configuration list for PBXNativeTarget "GitDemoUITests" */;
-			buildPhases = (
-				35808EFE1C192EC300A46BFC /* Sources */,
-				35808EFF1C192EC300A46BFC /* Frameworks */,
-				35808F001C192EC300A46BFC /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				35808F041C192EC300A46BFC /* PBXTargetDependency */,
-			);
-			name = GitDemoUITests;
-			productName = GitDemoUITests;
-			productReference = 35808F021C192EC300A46BFC /* GitDemoUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -207,14 +134,6 @@
 				TargetAttributes = {
 					35808EDD1C192EC300A46BFC = {
 						CreatedOnToolsVersion = 7.2;
-					};
-					35808EF61C192EC300A46BFC = {
-						CreatedOnToolsVersion = 7.2;
-						TestTargetID = 35808EDD1C192EC300A46BFC;
-					};
-					35808F011C192EC300A46BFC = {
-						CreatedOnToolsVersion = 7.2;
-						TestTargetID = 35808EDD1C192EC300A46BFC;
 					};
 				};
 			};
@@ -232,8 +151,6 @@
 			projectRoot = "";
 			targets = (
 				35808EDD1C192EC300A46BFC /* GitDemo */,
-				35808EF61C192EC300A46BFC /* GitDemoTests */,
-				35808F011C192EC300A46BFC /* GitDemoUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -246,20 +163,6 @@
 				35808EF11C192EC300A46BFC /* LaunchScreen.storyboard in Resources */,
 				35808EEE1C192EC300A46BFC /* Assets.xcassets in Resources */,
 				35808EEC1C192EC300A46BFC /* Main.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		35808EF51C192EC300A46BFC /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		35808F001C192EC300A46BFC /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,36 +179,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		35808EF31C192EC300A46BFC /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				35808EFC1C192EC300A46BFC /* GitDemoTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		35808EFE1C192EC300A46BFC /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				35808F071C192EC300A46BFC /* GitDemoUITests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		35808EF91C192EC300A46BFC /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 35808EDD1C192EC300A46BFC /* GitDemo */;
-			targetProxy = 35808EF81C192EC300A46BFC /* PBXContainerItemProxy */;
-		};
-		35808F041C192EC300A46BFC /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 35808EDD1C192EC300A46BFC /* GitDemo */;
-			targetProxy = 35808F031C192EC300A46BFC /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		35808EEA1C192EC300A46BFC /* Main.storyboard */ = {
@@ -431,54 +305,6 @@
 			};
 			name = Release;
 		};
-		35808F0F1C192EC300A46BFC /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				INFOPLIST_FILE = GitDemoTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.zzy.GitDemoTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GitDemo.app/GitDemo";
-			};
-			name = Debug;
-		};
-		35808F101C192EC300A46BFC /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				INFOPLIST_FILE = GitDemoTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.zzy.GitDemoTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GitDemo.app/GitDemo";
-			};
-			name = Release;
-		};
-		35808F121C192EC300A46BFC /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				INFOPLIST_FILE = GitDemoUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.zzy.GitDemoUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_TARGET_NAME = GitDemo;
-				USES_XCTRUNNER = YES;
-			};
-			name = Debug;
-		};
-		35808F131C192EC300A46BFC /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				INFOPLIST_FILE = GitDemoUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.zzy.GitDemoUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_TARGET_NAME = GitDemo;
-				USES_XCTRUNNER = YES;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -496,22 +322,6 @@
 			buildConfigurations = (
 				35808F0C1C192EC300A46BFC /* Debug */,
 				35808F0D1C192EC300A46BFC /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-		};
-		35808F0E1C192EC300A46BFC /* Build configuration list for PBXNativeTarget "GitDemoTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				35808F0F1C192EC300A46BFC /* Debug */,
-				35808F101C192EC300A46BFC /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-		};
-		35808F111C192EC300A46BFC /* Build configuration list for PBXNativeTarget "GitDemoUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				35808F121C192EC300A46BFC /* Debug */,
-				35808F131C192EC300A46BFC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
